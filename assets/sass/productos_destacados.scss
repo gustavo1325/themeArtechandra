@@ -1,0 +1,11 @@
+#products .products, .featured-products .products, .product-accessories .products, .product-miniature .products {
+   @include rwd(992px){
+      //justify-content: center;
+      margin-left:9%;
+   }
+   @include rwd(1200px){
+      //justify-content: center;
+      margin-left:auto;
+   }
+   // justify-content: space-around;
+}

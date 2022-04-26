@@ -1,0 +1,64 @@
+.hidden-md-up.text-sm-center.mobile {
+    position: relative;
+}
+#menuphone{
+    display: flex;
+    position:retative;
+    background: rgba(213, 226, 246, 0.5);
+   
+
+}
+.float-xs-right{
+    float: none !important;
+    padding-right: 20px;
+}
+
+#_mobile_cart, _#mobile_user_info, #menu-icon{
+    text-align: right;
+}
+
+#header .header-nav .blockcart .header {
+    margin-top: .125rem;
+    text-align: right;
+}
+
+.user-info{
+    text-align: right;
+}
+#header .header-nav .user-info {
+    text-align: right;
+    margin-left: 0;
+}
+
+div#menu-icon {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+
+#_mobile_cart {
+    position: absolute;
+    top: 60%;
+    left: 82%;
+    @include rwd(378px){
+        top: 60%;
+    left: 84%;
+    }
+    @include rwd(400px){
+        top: 60%;
+    left: 85%;
+    }
+
+    @include rwd(446px){
+        top: 60%;
+        left: 88%;
+    }
+    @include rwd(546px){
+        top: 60%;
+        left: 90%;
+    }
+    @include rwd(570px){
+        top: 60%;
+        left: 90%;
+    }
+  }

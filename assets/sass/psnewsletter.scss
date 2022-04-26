@@ -1,0 +1,172 @@
+
+#containerNewsletter{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+#formNewsleter {
+    //padding-top: 3rem;
+    text-align: center;
+    max-width: 50%;
+    background: #004563;
+    @include rwd(1150px){
+        width: 100%;
+    }
+    h1{
+        font-size: 0.8em;
+        color:#fff;
+        @include rwd(576px){
+            font-size: 1em;
+        }
+        @include rwd(641px){
+            font-size: 0.8em;
+        }
+        @include rwd(700px){
+            font-size: 1em;
+        }
+        @include rwd(888px){
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        @include rwd(1150px){
+            font-size: 1.2em;
+        }
+    }
+    h3{
+        font-size: 0.6em;
+        color:#fff;
+        @include rwd(576px){
+            padding-top: 5%;
+            font-size: 0.8em;
+        }
+        @include rwd(641px){
+            font-size: 0.6em;
+            padding-top: 1%;
+        }
+        @include rwd(700px){
+            padding-top: 5%;
+            font-size: 0.8em;
+        }
+        @include rwd(992px){ 
+            font-size: 1em;
+        }
+        @include rwd(1150px){
+            padding-top: 4%;
+        }
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+#titleNewsletter{
+    @include rwd(374px){
+        padding-top:8%;
+    }
+    @include rwd(374px){
+        padding-top:12%;
+    }
+    @include rwd(641px){
+        padding-top:6%;
+    }
+    @include rwd(700px){
+        padding-top:12%;
+    }
+
+}
+.formNewsleter{
+    margin-top: 3%;
+    
+}
+
+
+#formNews{
+    position:relative;
+}
+
+#formN{
+    margin-top: 2.5%;
+    position:absolute;
+    right: 10%;
+    background-color: #fff;
+    border-radius: 15px;
+    @include rwd(452px){
+        margin-top:10%;
+    }
+    @include rwd(641px){
+        margin-top:5%;
+    }
+    @include rwd(700px){
+        margin-top:10%;
+    }
+    @include rwd(1278px){
+       width: 15%;
+       
+    }
+    @include rwd(1550px){
+        right: 17%;
+        
+     }
+    
+}
+
+#nameNewsletter, #emailNewsletter{
+    max-width: 80%;
+    border:none;
+    border-bottom: 1px solid rgb(213, 226, 246);
+    background-color: #004563;
+    font-size: 1em;
+    color:#fff;
+    @include rwd(452px){
+        padding-top:8%;
+    }
+    @include rwd(641px){
+        padding-top:1%;
+    }
+   @include rwd(842px){
+        padding-top:8%;
+    }
+    @include rwd(1150px){
+        max-width: 100%;
+        padding-top:3%;
+    }
+   
+}
+
+#politicsNewsletter{
+    max-width: 40%;
+    @include rwd(1150px){
+        max-width: 100%;
+    }
+    
+}
+#politicLabel{
+    font-size: 0.4em;
+    color:#fff;
+    @include rwd(374px){
+        font-size: 0.5em;
+    }
+    @include rwd(576px){
+        font-size: 0.7em;
+    }
+    @include rwd(992px){
+        font-size: 1em;
+    }
+}
+
+.inputNewsletter{
+    margin-top:1rem;
+}
+
+
+  input::placeholder { 
+    color: rgb(255, 253, 253); 
+  }
+
+  #imgNewsletter{
+    max-width: 60%;
+  }

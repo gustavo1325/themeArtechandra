@@ -1,0 +1,42 @@
+.col-md-10.col-sm-12.position-static {
+    @include rwd(768px){
+        border: 1px solid var(--cell);
+        margin-top: 3em;
+        margin-left: -2em;
+        text-align: center;
+    }
+    
+    @include rwd(992px){
+        //border: 1px solid rgb(143, 87, 207);
+        //border: 1px solid var(--cell);
+        margin-top: 3em;
+        margin-left: -2em;
+        text-align: center;
+    }
+   
+}
+body{
+    font-family:var(--font_principal);
+}
+ul#top-menu{ 
+    @include rwd(992px){
+        margin-bottom: 0px;
+        margin-top:13px;
+    }
+    
+
+    li {
+        @include rwd(992px){
+            margin-right: 50px;
+            //font-family:var(--font_secundaria);
+        }
+   
+    }
+}
+
+//phone 
+
+#header .header-nav{
+    
+    margin-bottom: 0px;
+}

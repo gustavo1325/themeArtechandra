@@ -1,0 +1,7 @@
+.product:last-child {
+    display: none;
+    @include rwd(992px){
+        display: block;
+    }
+    
+}
